@@ -496,10 +496,9 @@ ul.songList {
   }
 }
 
-@media screen and (max-width: 420px) {
-
+@media screen and (min-width: 300px) and (max-width: 450px) {
   .signUp,
-  .logIn {
+  .logIn  {
     display: none;
   }
 
