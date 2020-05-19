@@ -460,3 +460,47 @@ ul.songList {
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .navBtns {
+    justify-content: space-between;
+  }
+
+  .signUp,
+  .logIn {
+    height: 30px;
+    width: 200px;
+    position: relative;
+    right: 8rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .upperNav {
+    justify-content: space-around;
+  }
+
+  .navBtns {
+    justify-content: space-between;
+  }
+
+  .signUp,
+  .logIn {
+    margin: 0 1rem;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    right: 8rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .signUp,
+  .logIn {
+    display: none;
+  }
+
+}
